@@ -1,0 +1,76 @@
+@import '../../variables';
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    
+    @media (max-width: 992px) {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}
+
+.pageButton {
+    padding: 8px 16px;
+    border: 2px solid $gray;
+    background: $white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 400;
+
+    @media (max-width: 992px) {
+        height: 30px;
+        width: 30px;
+        padding:0 ;
+
+    }
+    
+    &:hover:not(.active) {
+        background: $white;
+        border-color: $purple;
+    }
+    
+    &.active {
+        background: $purple;
+        color: $white;
+        border-color: $purple;
+    }
+}
+
+.arrowButton {
+    padding: 8px 16px;
+    border: 2px solid $gray;
+    background: $white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    @media (max-width: 992px) {
+        height: 30px;
+        width: 30px;
+        padding:0 ;
+
+    }
+    
+    &:hover:not(:disabled) {
+        background: $purple;
+        color: $white;
+        border-color: $purple;
+    }
+    
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+
+.pageInfo {
+    margin-left: 20px;
+    font-size: 14px;
+    color: $dark;
+
+    @media (max-width: 992px) {
+        display: none;
+    }
+}

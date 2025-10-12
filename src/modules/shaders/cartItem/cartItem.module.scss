@@ -1,0 +1,85 @@
+@import '../../variables';
+.cartItem {
+    display: flex;
+    height: 110px;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 0;
+    border-bottom: 1px solid $gray;
+    
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.itemImage {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.itemInfo {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemName {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.itemPrice {
+    font-weight: 600;
+    color: $purple;
+}
+
+.quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantityButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid $gray;
+    line-height: 0;
+    background: $white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        transition: all 0.3s ease;
+    
+    &:hover {
+        background: $gradient;
+        color: $white;
+    }
+}
+
+.quantity {
+    min-width: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.removeButton {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    color: $red;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 18px;
+        transition: all 0.3s ease;
+    
+    &:hover {
+        border: 1px solid $red;
+    }
+}

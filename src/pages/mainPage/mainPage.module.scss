@@ -1,0 +1,50 @@
+@import '../../modules/variables';
+
+.flexWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-grow: 1;
+    min-height: 0;
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.skeletonWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    height: 100%;
+    
+    @media (max-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+    }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: $white;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: $gradient;
+        transition: all 0.3s ease;
+    }
+}

@@ -1,0 +1,1125 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ноутбук MSI Katana GF76 B12UCR-821XRU",
+      "description": "Игровой ноутбук с процессором Intel Core i5 и видеокартой RTX 3050...",
+      "price": 89990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "MSI",
+      "images": ["https://i.postimg.cc/N5RWbw4C/0be7e84009b0ff86863ffc1886ae4d570502a6c1c630e6c94462e07dc337feff-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "MSI Katana GF76 B12UCR-821XRU"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 17.3,
+          "resolution": "1920x1080",
+          "refreshRate": 144
+        },
+        "processor": {
+          "model": "Intel Core i5-12450H",
+          "totalCores": 8,
+          "performanceCores": 4,
+          "efficiencyCores": 4
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 16,
+          "slots": 2,
+          "frequency": 5600,
+          "maxSize": 64
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel UHD Graphics",
+          "discrete": "GeForce RTX 3050",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ноутбук ASUS TUF Gaming F15 FX506HF-HN038",
+      "description": "Игровой ноутбук с процессором Intel Core i5 и видеокартой RTX 2050 для комфортного гейминга.",
+      "price": 74990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "ASUS",
+      "images": ["https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "ASUS TUF Gaming F15 FX506HF-HN038"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 144
+        },
+        "processor": {
+          "model": "Intel Core i5-11400H",
+          "totalCores": 6,
+          "performanceCores": 6,
+          "efficiencyCores": 0
+        },
+        "memory": {
+          "type": "DDR4",
+          "size": 8,
+          "slots": 2,
+          "frequency": 3200,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel UHD Graphics",
+          "discrete": "GeForce RTX 2050",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ноутбук Lenovo IdeaPad Gaming 3 15IAH7",
+      "description": "Игровой ноутбук с процессором Intel Core i5 и видеокартой RTX 3050 для начинающих геймеров.",
+      "price": 81990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Lenovo",
+      "images": ["https://i.postimg.cc/sv5tKRc4/353c2e2d2fc2d6ab946927a9f643672cf81091e1d299377be78eec59b1b32398-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Lenovo IdeaPad Gaming 3 15IAH7"
+        },
+        "design": {
+          "coverColor": "синий",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 120
+        },
+        "processor": {
+          "model": "Intel Core i5-12500H",
+          "totalCores": 12,
+          "performanceCores": 4,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 16,
+          "slots": 2,
+          "frequency": 4800,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "GeForce RTX 3050",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ноутбук Acer Nitro 5 AN515-58-56QW",
+      "description": "Мощный игровой ноутбук с процессором Intel Core i5 и видеокартой RTX 3050 Ti.",
+      "price": 92990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Acer",
+      "images": ["https://i.postimg.cc/tYFLDH5B/48a9819e000c31203a1fbbf7e52cbad519904804fd67dca512eb7d4e38116173-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Acer Nitro 5 AN515-58-56QW"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 144
+        },
+        "processor": {
+          "model": "Intel Core i5-12500H",
+          "totalCores": 12,
+          "performanceCores": 4,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "DDR4",
+          "size": 16,
+          "slots": 2,
+          "frequency": 3200,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "GeForce RTX 3050 Ti",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ноутбук HP Victus 16-d1000ur",
+      "description": "Игровой ноутбук с процессором AMD Ryzen 5 и видеокартой RTX 3050.",
+      "price": 86990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "HP",
+      "images": ["https://i.postimg.cc/PP1BKk46/64cad8497f91c7b926d47580ba6e67c39534e707153591a1b161302c07634135.jpg","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "HP Victus 16-d1000ur"
+        },
+        "design": {
+          "coverColor": "синий",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 16.1,
+          "resolution": "1920x1080",
+          "refreshRate": 144
+        },
+        "processor": {
+          "model": "AMD Ryzen 5 5600H",
+          "totalCores": 6,
+          "performanceCores": 6,
+          "efficiencyCores": 0
+        },
+        "memory": {
+          "type": "DDR4",
+          "size": 16,
+          "slots": 2,
+          "frequency": 3200,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "AMD Radeon Graphics",
+          "discrete": "GeForce RTX 3050",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ноутбук Dell G15 5520",
+      "description": "Игровой ноутбук с процессором Intel Core i7 и видеокартой RTX 3060.",
+      "price": 119990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Dell",
+      "images": ["https://i.postimg.cc/6yCDzN0L/87250e925c1441dfb82c43432ca6f0719c1e0921b41584e3f4c692b50afa36f4.jpg","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Dell G15 5520"
+        },
+        "design": {
+          "coverColor": "серый",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 165
+        },
+        "processor": {
+          "model": "Intel Core i7-12700H",
+          "totalCores": 14,
+          "performanceCores": 6,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 16,
+          "slots": 2,
+          "frequency": 4800,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "GeForce RTX 3060",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 1000,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Ноутбук Apple MacBook Air 13 M2",
+      "description": "Ультрабук с процессором Apple M2 и высококачественным дисплеем Retina.",
+      "price": 129990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Apple",
+      "images": ["https://i.postimg.cc/LnjrvMTC/a539fccd0983acc376116127c043c3face221f31babc94998ca785c89da07dc3-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Apple MacBook Air 13 M2"
+        },
+        "design": {
+          "coverColor": "серебристый",
+          "coverMaterial": "алюминий",
+          "bodyMaterial": "алюминий"
+        },
+        "input": {
+          "keyboardLayout": "английская",
+          "numpad": false
+        },
+        "display": {
+          "type": "Retina",
+          "diagonal": 13.6,
+          "resolution": "2560x1664",
+          "refreshRate": 60
+        },
+        "processor": {
+          "model": "Apple M2",
+          "totalCores": 8,
+          "performanceCores": 4,
+          "efficiencyCores": 4
+        },
+        "memory": {
+          "type": "LPDDR5",
+          "size": 8,
+          "slots": 0,
+          "frequency": 6400,
+          "maxSize": 24
+        },
+        "graphics": {
+          "type": "интегрированный",
+          "integrated": "Apple M2 GPU",
+          "discrete": "",
+          "manufacturer": "Apple",
+          "memoryType": "Unified Memory"
+        },
+        "storage": {
+          "ssdSize": 256,
+          "ssdType": "NVMe",
+          "freeSlots": "нет"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Ноутбук ASUS ROG Strix G15 G513RM-HQ008",
+      "description": "Профессиональный игровой ноутбук с процессором AMD Ryzen 7 и видеокартой RTX 3060.",
+      "price": 139990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "ASUS",
+      "images": ["https://i.postimg.cc/CzbWJVNN/b243902ade2a754f913b3fe72cd7d2dab807fc7cdca9465abe51dc8f7b1990e7-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "ASUS ROG Strix G15 G513RM-HQ008"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 300
+        },
+        "processor": {
+          "model": "AMD Ryzen 7 6800H",
+          "totalCores": 8,
+          "performanceCores": 8,
+          "efficiencyCores": 0
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 16,
+          "slots": 2,
+          "frequency": 4800,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "AMD Radeon Graphics",
+          "discrete": "GeForce RTX 3060",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 1000,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ноутбук Lenovo Legion 5 15IAH7H",
+      "description": "Игровой ноутбук с процессором Intel Core i7 и видеокартой RTX 3070.",
+      "price": 159990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Lenovo",
+      "images": ["https://i.postimg.cc/qgPP878Z/b4035b54334a05579b1cb8022c0d07f9b954a09be551749588a9b6b671340be4-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Lenovo Legion 5 15IAH7H"
+        },
+        "design": {
+          "coverColor": "серый",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "2560x1440",
+          "refreshRate": 165
+        },
+        "processor": {
+          "model": "Intel Core i7-12700H",
+          "totalCores": 14,
+          "performanceCores": 6,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 16,
+          "slots": 2,
+          "frequency": 4800,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "GeForce RTX 3070",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 1000,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Ноутбук Acer Aspire 7 A715-42G-R4BZ",
+      "description": "Бюджетный игровой ноутбук с процессором AMD Ryzen 5 и видеокартой GTX 1650.",
+      "price": 64990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Acer",
+      "images": ["https://i.postimg.cc/dLGznKB9/b99a09e411ec15c5238479cf75d319aa8e5d0d2c0305be9634e84071e4f4111d-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Acer Aspire 7 A715-42G-R4BZ"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 60
+        },
+        "processor": {
+          "model": "AMD Ryzen 5 5500U",
+          "totalCores": 6,
+          "performanceCores": 6,
+          "efficiencyCores": 0
+        },
+        "memory": {
+          "type": "DDR4",
+          "size": 8,
+          "slots": 2,
+          "frequency": 3200,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "AMD Radeon Graphics",
+          "discrete": "GeForce GTX 1650",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Ноутбук Huawei MateBook D 16",
+      "description": "Ультрабук с большим дисплеем и процессором Intel Core i5 для работы.",
+      "price": 79990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Huawei",
+      "images": ["https://i.postimg.cc/N5RWbw4C/0be7e84009b0ff86863ffc1886ae4d570502a6c1c630e6c94462e07dc337feff-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Huawei MateBook D 16"
+        },
+        "design": {
+          "coverColor": "серебристый",
+          "coverMaterial": "алюминий",
+          "bodyMaterial": "алюминий"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 16,
+          "resolution": "1920x1200",
+          "refreshRate": 60
+        },
+        "processor": {
+          "model": "Intel Core i5-12450H",
+          "totalCores": 8,
+          "performanceCores": 4,
+          "efficiencyCores": 4
+        },
+        "memory": {
+          "type": "DDR4",
+          "size": 16,
+          "slots": 0,
+          "frequency": 3200,
+          "maxSize": 16
+        },
+        "graphics": {
+          "type": "интегрированный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "",
+          "manufacturer": "Intel",
+          "memoryType": "Shared Memory"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "NVMe",
+          "freeSlots": "нет"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "Ноутбук MSI Bravo 15 C7VF-095XRU",
+      "description": "Игровой ноутбук с процессором AMD Ryzen 7 и видеокартой RX 7600M.",
+      "price": 99990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "MSI",
+      "images": ["https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "MSI Bravo 15 C7VF-095XRU"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 144
+        },
+        "processor": {
+          "model": "AMD Ryzen 7 7735HS",
+          "totalCores": 8,
+          "performanceCores": 8,
+          "efficiencyCores": 0
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 16,
+          "slots": 2,
+          "frequency": 4800,
+          "maxSize": 64
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "AMD Radeon Graphics",
+          "discrete": "Radeon RX 7600M",
+          "manufacturer": "AMD",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 1000,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "Ноутбук Gigabyte G5 MF-E2RU333SH",
+      "description": "Компактный игровой ноутбук с процессором Intel Core i5 и видеокартой RTX 4050.",
+      "price": 109990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Gigabyte",
+      "images": ["https://i.postimg.cc/sv5tKRc4/353c2e2d2fc2d6ab946927a9f643672cf81091e1d299377be78eec59b1b32398-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Gigabyte G5 MF-E2RU333SH"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 144
+        },
+        "processor": {
+          "model": "Intel Core i5-12500H",
+          "totalCores": 12,
+          "performanceCores": 4,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "DDR4",
+          "size": 16,
+          "slots": 2,
+          "frequency": 3200,
+          "maxSize": 64
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "GeForce RTX 4050",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Ноутбук Samsung Galaxy Book3 360",
+      "description": "Трансформер с сенсорным дисплеем и процессором Intel Core i7.",
+      "price": 119990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Samsung",
+      "images": ["https://i.postimg.cc/tYFLDH5B/48a9819e000c31203a1fbbf7e52cbad519904804fd67dca512eb7d4e38116173-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Samsung Galaxy Book3 360"
+        },
+        "design": {
+          "coverColor": "графитовый",
+          "coverMaterial": "алюминий",
+          "bodyMaterial": "алюминий"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": false
+        },
+        "display": {
+          "type": "AMOLED",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 60,
+          "touchscreen": true
+        },
+        "processor": {
+          "model": "Intel Core i7-1355U",
+          "totalCores": 10,
+          "performanceCores": 2,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "LPDDR5",
+          "size": 16,
+          "slots": 0,
+          "frequency": 5200,
+          "maxSize": 16
+        },
+        "graphics": {
+          "type": "интегрированный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "",
+          "manufacturer": "Intel",
+          "memoryType": "Shared Memory"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "NVMe",
+          "freeSlots": "нет"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "Ноутбук Xiaomi RedmiBook Pro 15",
+      "description": "Ультрабук с качественным дисплеем и процессором Intel Core i5.",
+      "price": 69990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Xiaomi",
+      "images": ["https://i.postimg.cc/PP1BKk46/64cad8497f91c7b926d47580ba6e67c39534e707153591a1b161302c07634135.jpg","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Xiaomi RedmiBook Pro 15"
+        },
+        "design": {
+          "coverColor": "серый",
+          "coverMaterial": "алюминий",
+          "bodyMaterial": "алюминий"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "3200x2000",
+          "refreshRate": 90
+        },
+        "processor": {
+          "model": "Intel Core i5-12450H",
+          "totalCores": 8,
+          "performanceCores": 4,
+          "efficiencyCores": 4
+        },
+        "memory": {
+          "type": "LPDDR5",
+          "size": 16,
+          "slots": 0,
+          "frequency": 5200,
+          "maxSize": 16
+        },
+        "graphics": {
+          "type": "интегрированный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "",
+          "manufacturer": "Intel",
+          "memoryType": "Shared Memory"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "NVMe",
+          "freeSlots": "нет"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "Ноутбук ASUS ZenBook 14 UX3402VA-KM569W",
+      "description": "Стильный ультрабук с процессором Intel Core i7 и OLED дисплеем.",
+      "price": 109990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "ASUS",
+      "images": ["https://i.postimg.cc/6yCDzN0L/87250e925c1441dfb82c43432ca6f0719c1e0921b41584e3f4c692b50afa36f4.jpg","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "ASUS ZenBook 14 UX3402VA-KM569W"
+        },
+        "design": {
+          "coverColor": "синий",
+          "coverMaterial": "алюминий",
+          "bodyMaterial": "алюминий"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": false
+        },
+        "display": {
+          "type": "OLED",
+          "diagonal": 14,
+          "resolution": "2880x1800",
+          "refreshRate": 90
+        },
+        "processor": {
+          "model": "Intel Core i7-1360P",
+          "totalCores": 12,
+          "performanceCores": 4,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "LPDDR5",
+          "size": 16,
+          "slots": 0,
+          "frequency": 5200,
+          "maxSize": 16
+        },
+        "graphics": {
+          "type": "интегрированный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "",
+          "manufacturer": "Intel",
+          "memoryType": "Shared Memory"
+        },
+        "storage": {
+          "ssdSize": 1000,
+          "ssdType": "NVMe",
+          "freeSlots": "нет"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "Ноутбук Lenovo ThinkPad E14 Gen 4",
+      "description": "Бизнес-ноутбук с процессором Intel Core i5 для корпоративного использования.",
+      "price": 74990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Lenovo",
+      "images": ["https://i.postimg.cc/LnjrvMTC/a539fccd0983acc376116127c043c3face221f31babc94998ca785c89da07dc3-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Lenovo ThinkPad E14 Gen 4"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": false
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 14,
+          "resolution": "1920x1080",
+          "refreshRate": 60
+        },
+        "processor": {
+          "model": "Intel Core i5-1235U",
+          "totalCores": 10,
+          "performanceCores": 2,
+          "efficiencyCores": 8
+        },
+        "memory": {
+          "type": "DDR4",
+          "size": 8,
+          "slots": 1,
+          "frequency": 3200,
+          "maxSize": 40
+        },
+        "graphics": {
+          "type": "интегрированный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "",
+          "manufacturer": "Intel",
+          "memoryType": "Shared Memory"
+        },
+        "storage": {
+          "ssdSize": 256,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "Ноутбук MSI Crosshair 15 B13UGXZ-265XRU",
+      "description": "Игровой ноутбук премиум-класса с процессором Intel Core i9 и видеокартой RTX 4070.",
+      "price": 219990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "MSI",
+      "images": ["https://i.postimg.cc/CzbWJVNN/b243902ade2a754f913b3fe72cd7d2dab807fc7cdca9465abe51dc8f7b1990e7-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "MSI Crosshair 15 B13UGXZ-265XRU"
+        },
+        "design": {
+          "coverColor": "черный",
+          "coverMaterial": "алюминий",
+          "bodyMaterial": "алюминий"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "2560x1440",
+          "refreshRate": 240
+        },
+        "processor": {
+          "model": "Intel Core i9-13900HX",
+          "totalCores": 24,
+          "performanceCores": 8,
+          "efficiencyCores": 16
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 32,
+          "slots": 2,
+          "frequency": 5600,
+          "maxSize": 64
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel UHD Graphics",
+          "discrete": "GeForce RTX 4070",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 2000,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "Ноутбук ASUS TUF Dash F15 FX517ZR-HQ031",
+      "description": "Тонкий игровой ноутбук с процессором Intel Core i7 и видеокартой RTX 3070.",
+      "price": 149990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "ASUS",
+      "images": ["https://i.postimg.cc/qgPP878Z/b4035b54334a05579b1cb8022c0d07f9b954a09be551749588a9b6b671340be4-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "ASUS TUF Dash F15 FX517ZR-HQ031"
+        },
+        "design": {
+          "coverColor": "белый",
+          "coverMaterial": "пластик",
+          "bodyMaterial": "пластик"
+        },
+        "input": {
+          "keyboardLayout": "английская/русская",
+          "numpad": true
+        },
+        "display": {
+          "type": "IPS",
+          "diagonal": 15.6,
+          "resolution": "1920x1080",
+          "refreshRate": 144
+        },
+        "processor": {
+          "model": "Intel Core i7-12650H",
+          "totalCores": 10,
+          "performanceCores": 6,
+          "efficiencyCores": 4
+        },
+        "memory": {
+          "type": "DDR5",
+          "size": 16,
+          "slots": 2,
+          "frequency": 4800,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "дискретный и встроенный",
+          "integrated": "Intel Iris Xe Graphics",
+          "discrete": "GeForce RTX 3070",
+          "manufacturer": "NVIDIA",
+          "memoryType": "GDDR6"
+        },
+        "storage": {
+          "ssdSize": 1000,
+          "ssdType": "M.2 PCIe",
+          "freeSlots": "M.2 PCIe"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "Ноутбук Apple MacBook Pro 16 M2 Pro",
+      "description": "Профессиональный ноутбук с процессором Apple M2 Pro для творческих задач.",
+      "price": 249990,
+      "currency": "RUB",
+      "category": "Ноутбуки",
+      "brand": "Apple",
+      "images": ["https://i.postimg.cc/dLGznKB9/b99a09e411ec15c5238479cf75d319aa8e5d0d2c0305be9634e84071e4f4111d-jpg.png","https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"],
+      "specifications": {
+        "general": {
+          "country": "Китай",
+          "model": "Apple MacBook Pro 16 M2 Pro"
+        },
+        "design": {
+          "coverColor": "серый космос",
+          "coverMaterial": "алюминий",
+          "bodyMaterial": "алюминий"
+        },
+        "input": {
+          "keyboardLayout": "английская",
+          "numpad": false
+        },
+        "display": {
+          "type": "Liquid Retina XDR",
+          "diagonal": 16.2,
+          "resolution": "3456x2234",
+          "refreshRate": 120
+        },
+        "processor": {
+          "model": "Apple M2 Pro",
+          "totalCores": 12,
+          "performanceCores": 8,
+          "efficiencyCores": 4
+        },
+        "memory": {
+          "type": "LPDDR5",
+          "size": 16,
+          "slots": 0,
+          "frequency": 6400,
+          "maxSize": 32
+        },
+        "graphics": {
+          "type": "интегрированный",
+          "integrated": "Apple M2 Pro GPU",
+          "discrete": "",
+          "manufacturer": "Apple",
+          "memoryType": "Unified Memory"
+        },
+        "storage": {
+          "ssdSize": 512,
+          "ssdType": "NVMe",
+          "freeSlots": "нет"
+        }
+      }
+    }
+  ]
+}

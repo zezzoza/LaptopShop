@@ -1,0 +1,217 @@
+@import '../../variables';
+
+.infoSection {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow-y: auto;
+    
+    @media (max-width: 1920px) {
+        padding: 28px;
+        gap: 22px;
+    }
+
+    @media (max-width: 1440px) {
+        padding: 26px;
+        gap: 20px;
+    }
+
+    @media (max-width: 1200px) {
+        padding: 24px;
+        gap: 18px;
+    }
+    
+    @media (max-width: 992px) {
+        padding: 22px;
+        gap: 16px;
+    }
+    
+    @media (max-width: 768px) {
+        padding: 20px;
+        gap: 20px;
+        flex: 1;
+        overflow-y: auto;
+    }
+    
+    @media (max-width: 576px) {
+        padding: 16px;
+        gap: 16px;
+    }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: $white;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: $gradient;
+        transition: all 0.3s ease;
+    }
+}
+
+.basicInfo {
+    .price {
+        font-size: 28px;
+        font-weight: 700;
+        color: $purple;
+        margin-bottom: 10px;
+
+        @media (max-width: 1920px) {
+            font-size: 26px;
+        }
+
+        @media (max-width: 1440px) {
+            font-size: 24px;
+        }
+
+        @media (max-width: 1200px) {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 992px) {
+            font-size: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 576px) {
+            font-size: 22px;
+        }
+    }
+    
+    .brandCategory {
+        display: flex;
+        gap: 15px;
+
+        @media (max-width: 1200px) {
+            gap: 12px;
+        }
+        
+        @media (max-width: 992px) {
+            gap: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            gap: 12px;
+        }
+        
+        @media (max-width: 576px) {
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        span {
+            background: $purple;
+            color: $white;
+            padding: 4px 12px;
+            font-size: 14px;
+            font-weight: 400;
+
+            @media (max-width: 1200px) {
+                font-size: 13px;
+                padding: 3px 10px;
+            }
+            
+            @media (max-width: 992px) {
+                font-size: 12px;
+                padding: 3px 8px;
+            }
+            
+            @media (max-width: 768px) {
+                font-size: 13px;
+                padding: 4px 10px;
+            }
+            
+            @media (max-width: 576px) {
+                font-size: 12px;
+                padding: 3px 8px;
+            }
+        }
+        
+
+    }
+}
+
+.description {
+    h4 {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+        color: $dark;
+
+        @media (max-width: 1200px) {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 992px) {
+            font-size: 16px;
+        }
+        
+        @media (max-width: 768px) {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 576px) {
+            font-size: 17px;
+        }
+    }
+    
+    p {
+        margin: 0;
+        line-height: 1.6;
+        color: $dark;
+
+        @media (max-width: 1200px) {
+            font-size: 14px;
+        }
+        
+        @media (max-width: 992px) {
+            font-size: 13px;
+        }
+        
+        @media (max-width: 768px) {
+            font-size: 14px;
+        }
+        
+        @media (max-width: 576px) {
+            font-size: 13px;
+        }
+    }
+}
+
+.specifications {
+    h4 {
+        margin: 0 0 15px 0;
+        font-size: 18px;
+        color: $dark;
+
+        @media (max-width: 1200px) {
+            font-size: 17px;
+            margin-bottom: 12px;
+        }
+        
+        @media (max-width: 992px) {
+            font-size: 16px;
+        }
+        
+        @media (max-width: 768px) {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 576px) {
+            font-size: 17px;
+        }
+    }
+}
+

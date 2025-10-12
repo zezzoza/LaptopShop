@@ -1,0 +1,99 @@
+@import '../../variables';
+.sorting {
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    
+    
+    h4 {
+        margin: 0 0 10px 0;
+        font-size: 16px;
+
+        @media (max-width: 1920px) {
+            font-size: 15px;
+            margin-bottom: 9px;
+        }
+
+
+    }
+}
+
+.radioLabel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: $dark;
+    transition: all 0.2s ease;
+
+    @media (max-width: 1920px) {
+        gap: 9px;
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    
+    
+    &:hover {
+        color: $purple; 
+        box-shadow: inset 0 -1px 0 $purple;
+    }
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+    
+    input {
+        display: none;
+        
+        &:checked + .customRadio {
+            border-color: #635EF7;
+            background-color: #635EF7;
+            
+            &::after {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.customRadio {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.2s;
+    flex-shrink: 0;
+
+    @media (max-width: 1920px) {
+        width: 17px;
+        height: 17px;
+    }
+
+    
+    
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 8px;
+        height: 8px;
+        background: white;
+        border-radius: 50%;
+        opacity: 0;
+        transition: opacity 0.2s;
+
+        @media (max-width: 1920px) {
+            width: 7px;
+            height: 7px;
+        }
+
+        
+    }
+}
