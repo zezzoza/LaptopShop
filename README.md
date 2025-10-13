@@ -1,7 +1,7 @@
 Я использовал JSON server, чтобы все работало, сначала надо запустить этот сервер:
 
 #cd src
-#json-server --watch db.json port 3001
+#json-server --watch db.json --port 3001
 
 Обязательно порт 3001 потому что базовый запрос - http://localhost:3001
 
