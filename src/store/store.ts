@@ -7,6 +7,8 @@ import sortReducer from "./slices/sortSlice"
 import searchReducer from "./slices/searchSlice"
 import cartReducer from "./slices/cartSlice"
 import detailReducer from "./slices/detailSlcie"
+import adminReducer from "./slices/adminSlice"
+import editReducer from "./slices/editSlice"
 
 export const store = configureStore({
     reducer: {
@@ -17,6 +19,8 @@ export const store = configureStore({
         search: searchReducer,
         cart: cartReducer,
         detail: detailReducer,
+        admin: adminReducer,
+        edit: editReducer,
     },
     middleware: (GetDefaultMiddleware) =>
         GetDefaultMiddleware().concat(laptopsApi.middleware),

@@ -6,11 +6,15 @@ const Button = ({
     variable,
     onClick,
     className,
+    type,
+    disabled,
 }: {
     children: string | ReactNode
     variable?: number
     onClick?: () => void
     className?: string
+    type?: string
+    disabled?: boolean
 }) => {
     return (
         <button

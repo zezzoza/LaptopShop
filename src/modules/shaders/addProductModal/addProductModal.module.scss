@@ -1,0 +1,180 @@
+@import '../../variables';
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1002;
+    background: $white;
+    max-width: 800px;
+    width: 90vw;
+    max-height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        width: 95vw;
+        height: 95vh;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid $gray;
+    background: $white;
+    flex-shrink: 0;
+
+    h2 {
+        margin: 0;
+        font-size: 24px;
+        color: $dark;
+    }
+}
+
+.closeButton {
+    border: none;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $dark;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: $purple;
+        color: $white;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scrollContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 30px;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: $white;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: $gradient;
+    }
+}
+
+.section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $gray;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    h3 {
+        margin: 0 0 20px 0;
+        font-size: 20px;
+        color: $dark;
+    }
+}
+
+.subSection {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: $gray;
+
+    h4 {
+        margin: 0 0 15px 0;
+        font-size: 16px;
+        color: $dark;
+    }
+}
+
+.formGroup {
+    margin-bottom: 15px;
+
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $gray;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+
+        &:focus {
+            outline: none;
+            border-color: $purple;
+        }
+    }
+
+
+}
+
+.formRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
+    @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.footer {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    border-top: 1px solid $gray;
+    background: #f9f9f9;
+    flex-shrink: 0;
+
+    @media (max-width: 576px) {
+        flex-direction: column;
+    }
+}
+
+
+.infoMessage {
+    padding: 15px;
+    background: $gray;
+    font-size: 14px;
+    color: $dark;
+    
+    p {
+        margin: 0 0 8px 0;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

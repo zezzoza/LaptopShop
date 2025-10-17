@@ -1,4 +1,5 @@
 @import '../../variables';
+
 .overlay {
     position: fixed;
     top: 0;
@@ -53,7 +54,6 @@
         max-height: none;
         width: 100vw;
         height: 100vh;
-        border-radius: 0;
     }
 }
 
@@ -63,6 +63,7 @@
     align-items: center;
     padding: 20px 30px;
     border-bottom: 1px solid $gray;
+    flex-shrink: 0; 
 
     @media (max-width: 1920px) {
         padding: 18px 28px;
@@ -91,6 +92,8 @@
     h2 {
         font-size: 24px;
         color: $dark;
+        margin: 0;
+        flex: 1;
 
         @media (max-width: 1920px) {
             font-size: 22px;
@@ -132,6 +135,7 @@
     justify-content: center;
     color: $dark;
     transition: all 0.3s ease;
+    flex-shrink: 0;
 
     @media (max-width: 1920px) {
         width: 38px;
@@ -174,13 +178,161 @@
         color: $white;
     }
 }
+
 .content {
     display: flex;
     flex: 1;
     overflow: hidden;
+    min-height: 0; 
 
     @media (max-width: 768px) {
         flex-direction: column;
     }
 }
 
+.infoSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    min-height: 0; 
+    
+    
+    
+    @media (max-width: 768px) {
+        gap: 20px;
+    }
+    
+    @media (max-width: 576px) {
+        gap: 16px;
+    }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: $white;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: $gradient;
+        transition: all 0.3s ease;
+    }
+}
+
+.editMode {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    min-height: 0;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    flex: 1;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    label {
+        font-weight: 500;
+        color: $dark;
+        font-size: 14px;
+    }
+}
+
+.editInput {
+    padding: 8px 12px;
+    border: 1px solid $gray;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+
+    &:focus {
+        outline: none;
+        border-color: $purple;
+    }
+}
+
+.editActions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-shrink: 0; 
+    margin-top: auto; 
+}
+
+.adminActions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: auto; 
+    padding-top: 20px;
+    border-top: 1px solid $gray;
+    flex-shrink: 0;
+}
+
+.deleteButton {
+    background: $red;
+    color: $white;
+    border: 1px solid $red;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    
+    &:hover:not(:disabled) {
+        background: darken($red, 10%);
+        border-color: darken($red, 10%);
+    }
+    
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}
+
+.header {
+    .editInput {
+        font-size: 24px;
+        font-weight: 700;
+        border: 1px solid $gray;
+        padding: 5px 10px;
+        width: 100%;
+        
+        &:focus {
+            outline: none;
+            border-color: $purple;
+        }
+
+        @media (max-width: 1920px) {
+            font-size: 22px;
+        }
+
+        @media (max-width: 1440px) {
+            font-size: 20px;
+        }
+
+        @media (max-width: 1200px) {
+            font-size: 19px;
+        }
+        
+        @media (max-width: 992px) {
+            font-size: 18px;
+        }
+        
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
+        
+        @media (max-width: 576px) {
+            font-size: 18px;
+        }
+    }
+}
