@@ -1,65 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Ноутбук MSI ф Katana GF76 B12UCR-821XRU",
-      "description": "Игровой ноутбук с процессором Intel Core i5 и видеокартой RTX 3050...",
-      "price": 89990,
-      "currency": "RUB",
-      "images": [
-        "https://i.postimg.cc/N5RWbw4C/0be7e84009b0ff86863ffc1886ae4d570502a6c1c630e6c94462e07dc337feff-jpg.png",
-        "https://i.postimg.cc/xcLWgSRt/1a761342efb925e4493e6e4e90745851672f484eb652d99341ea7c4075c0a291.jpg"
-      ],
-      "category": "Ноутбуки",
-      "brand": "MSI",
-      "specifications": {
-        "general": {
-          "country": "Китай",
-          "model": "MSI Katana GF76 B12UCR-821XRU"
-        },
-        "design": {
-          "coverColor": "черный",
-          "coverMaterial": "пластик",
-          "bodyMaterial": "пластик"
-        },
-        "input": {
-          "keyboardLayout": "английская/русская",
-          "numpad": true
-        },
-        "display": {
-          "type": "IPS",
-          "diagonal": 17.3,
-          "resolution": "1920x1080",
-          "refreshRate": 144
-        },
-        "processor": {
-          "model": "Intel Core i5-12450H",
-          "totalCores": 8,
-          "performanceCores": 4,
-          "efficiencyCores": 4
-        },
-        "memory": {
-          "type": "DDR5",
-          "size": 16,
-          "slots": 2,
-          "frequency": 5600,
-          "maxSize": 64
-        },
-        "graphics": {
-          "type": "дискретный и встроенный",
-          "integrated": "Intel UHD Graphics",
-          "discrete": "GeForce RTX 3050",
-          "manufacturer": "NVIDIA",
-          "memoryType": "GDDR6"
-        },
-        "storage": {
-          "ssdSize": 512,
-          "ssdType": "M.2 PCIe",
-          "freeSlots": "M.2 PCIe"
-        }
-      }
-    },
-    {
       "id": "2",
       "name": "Ноутбук ASUS TUF Gaming F15 FX506HF-HN038",
       "description": "Игровой ноутбук с процессором Intel Core i5 и видеокартой RTX 2050 для комфортного гейминга.",

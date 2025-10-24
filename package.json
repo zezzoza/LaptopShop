@@ -1,13 +1,10 @@
 {
   "name": "shop",
   "version": "0.1.0",
-  "homepage": "https://zezzoza.github.io/LaptopShop",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "main -d out -t true",
     "start": "next start",
     "lint": "eslint"
   },
