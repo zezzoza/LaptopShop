@@ -13,35 +13,7 @@ export const laptopsApi = createApi({
             query: () => "/products",
             providesTags: ["laptop"],
         }),
-        addLaptop: builder.mutation<Laptop, Omit<Laptop, "id">>({
-            query: (newLaptop) => ({
-                url: "/products",
-                method: "POST",
-                body: newLaptop,
-            }),
-            invalidatesTags: ["laptop"],
-        }),
-        updateLaptop: builder.mutation<Laptop, Laptop>({
-            query: (updatedLaptop) => ({
-                url: `/products/${updatedLaptop.id}`,
-                method: "PUT",
-                body: updatedLaptop,
-            }),
-            invalidatesTags: ["laptop"],
-        }),
-        deleteLaptop: builder.mutation<void, number>({
-            query: (id) => ({
-                url: `/products/${id}`,
-                method: "DELETE",
-            }),
-            invalidatesTags: ["laptop"],
-        }),
     }),
 })
 
-export const {
-    useGetAllLaptopsQuery,
-    useAddLaptopMutation,
-    useUpdateLaptopMutation,
-    useDeleteLaptopMutation,
-} = laptopsApi
+export const { useGetAllLaptopsQuery } = laptopsApi

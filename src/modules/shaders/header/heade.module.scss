@@ -47,13 +47,3 @@
         padding: 10px 0;
     }
 }
-
-.actions {
-    display: flex;
-    align-items: stretch;
-    height: 100%;
-
-    @media (max-width: 992px) {
-        justify-content: space-between;
-    }
-}

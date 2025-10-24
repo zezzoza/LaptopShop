@@ -6,7 +6,6 @@ import DetailSpecification from "../detailSpecification/DetailSpecification"
 
 interface DetailInfoProps extends Laptop {
     handleAddToCart: () => void
-    showAddToCart?: boolean // добавляем новый пропс
 }
 
 const DetailInfo = ({
@@ -17,7 +16,6 @@ const DetailInfo = ({
     description,
     specifications,
     handleAddToCart,
-    showAddToCart = true, // значение по умолчанию
 }: DetailInfoProps) => {
     return (
         <div className={s.infoSection}>
@@ -53,14 +51,11 @@ const DetailInfo = ({
                     })}
                 </div>
             </div>
-
-            {showAddToCart && ( // показываем кнопку только если разрешено
-                <div>
-                    <Button variable={2} onClick={handleAddToCart}>
-                        Добавить в корзину
-                    </Button>
-                </div>
-            )}
+            <div>
+                <Button variable={2} onClick={handleAddToCart}>
+                    Добавить в корзину
+                </Button>
+            </div>
         </div>
     )
 }
